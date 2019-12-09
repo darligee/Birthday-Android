@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_happy_birthday"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.darlinovate.happybirthday.HappyBirthday">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerInside"
+        android:src="@drawable/newsix"
+         />
+
+    <TextView
+        android:id="@+id/happy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Happy Birthday"
+        android:textColor="#ff1908"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/happy2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/happy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Obioma Darlington\n Darli-Gee"
+        android:textAlignment="center"
+        android:textColor="#5231ae"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_marginTop="30dp"
+        android:layout_width="342dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/happy2"
+        android:src="@drawable/darlo" />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img"
+        android:layout_centerHorizontal="true"
+        android:text="Wishing you the best in programing world.\n Sleep in code\n\n# We Love Coding !\n# Coding Rules."
+        android:textAlignment="center"
+        android:textColor="#09c"
+        android:layout_marginTop="50dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/darlinovate" />
+</RelativeLayout>
